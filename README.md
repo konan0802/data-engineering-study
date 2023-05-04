@@ -15,9 +15,7 @@
 
 ## 学習計画
 1. 『エンジニアのためのデータ分析基盤入門』の読了: 3日<br>
-    ⇒ [Introduction To Data Analysis Infrastructure For Engineers](./IntroductiontoDataAnalysisInfrastructureForEngineers.md)
-2. BigQueryの学習: 7日
-3. データ処理を行うプログラミングスキルを強化: 14日
-4. データインテグレーションに関する知識を習得: 14日
-5. データウェアハウス・分析環境の設計・運用について学ぶ: 14日
-6. 何らかのデータを用いた定量的な分析経験を積む: 14日
+    ⇒ [IntroductiontoDataAnalysisInfrastructureForEngineers.md](./IntroductiontoDataAnalysisInfrastructureForEngineers.md)
+2. Udemy講座（[Yuki Saito](https://www.udemy.com/user/yuki-saito-7/)）
+    1. aaa
+    2. aaa
