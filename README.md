@@ -12,7 +12,7 @@
 
 ## 学習計画
 1. 『エンジニアのためのデータ分析基盤入門』の読了: 3日<br>
-    ⇒ [IntroductiontoDataAnalysisInfrastructureForEngineers.md](./IntroductiontoDataAnalysisInfrastructureForEngineers.md)
+    ⇒ [エンジニアのためのデータ分析基盤入門.md](./%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E5%88%86%E6%9E%90%E5%9F%BA%E7%9B%A4%E5%85%A5%E9%96%80.md)
 2. Udemy講座（[Yuki Saito](https://www.udemy.com/user/yuki-saito-7/)）
     1. [超速入門!【データサイエンスへの最初の一歩】PythonとSparkで学ぶデータ分析のための前処理と分散処理 一気見講座](https://www.udemy.com/course/spark-python-crush-course/)
     2. [データサイエンスのためのストリーミング前処理入門　PythonとSparkで始めるビッグデータストリーミング処理入門](https://www.udemy.com/course/python-spark-streaming/)
