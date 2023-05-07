@@ -10,7 +10,7 @@
 **CDO（Chief Data Officer）**<br>
 * サービス全体（プロダクト, セールス, CS）のデータ戦略
 
-## 学習計画
+## 学習内容
 1. 『エンジニアのためのデータ分析基盤入門』<br>
     ⇒ [エンジニアのためのデータ分析基盤入門.md](./%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E5%88%86%E6%9E%90%E5%9F%BA%E7%9B%A4%E5%85%A5%E9%96%80.md)
 2. Udemy講座（[Yuki Saito](https://www.udemy.com/user/yuki-saito-7/)）
