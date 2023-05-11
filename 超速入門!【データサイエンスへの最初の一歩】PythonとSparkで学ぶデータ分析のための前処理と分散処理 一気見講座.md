@@ -7,6 +7,7 @@
 ## 【内容】
 ### セクション1: 紹介
 * 環境構築
+    * ローカルのメモリが少なかったためAWSのEC2上に構築
     * [`Docker.ipynb`](https://github.com/yk-st/pyspark_settings/blob/main/Docker.ipynb) 通りにPySpark環境を構築
 
 ### セクション2: 環境構築と基本操作（DataFrame）
