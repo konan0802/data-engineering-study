@@ -6,6 +6,13 @@
 
 ## 【内容】
 ### セクション3: Kafka(メッセージキュー)基礎知識
+* Apache Kafka
+    * 類似クラウドサービス
+        - Amazon Kinesiss
+        - Google pub/sub
+* メッセージキューを利用するメリット
+    * デカップリングが可能である
+        * ストリーミングデータの一時保存が可能
 
 ### セクション4: Spark Structured Streaming とは？
 
