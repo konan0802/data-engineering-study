@@ -20,7 +20,6 @@
 ### 5月
 * 書籍
     * [『エンジニアのためのデータ分析基盤入門』](https://amzn.asia/d/0yDiDoo)
-    * [『実践的データ基盤への処方箋』](https://amzn.asia/d/7FBkI6V)
 * Udemy
     * [超速入門!【データサイエンスへの最初の一歩】PythonとSparkで学ぶデータ分析のための前処理と分散処理 一気見講座](https://www.udemy.com/course/spark-python-crush-course/)
     * [データサイエンスのための前処理入門PythonとSparkで学ぶビッグデータエンジニアリング(PySpark) 速習講座](https://www.udemy.com/course/python-spark-pyspark/)
@@ -31,6 +30,8 @@
     * [【実戦で学ぶデータサイエンス講座】リレーショナルデータベースで始めるデータ活用とデータ分析のためのSQLを学ぼう](https://www.udemy.com/course/business_sql/)
 
 ### 6月
+* 書籍
+    * [『実践的データ基盤への処方箋』](https://amzn.asia/d/7FBkI6V)
 * Udemy
     * [BigQueryで学ぶ！実践SQLデータ分析：ITサービス改善につなげよう](https://www.udemy.com/course/bq-sql-analysis/)
     * [Google BigQueryとGoogle Data Portal【旧Data Studio】から始めるデータ活用入門](https://www.udemy.com/course/bigquery_dataportal_basic/)
