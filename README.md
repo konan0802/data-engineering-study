@@ -34,7 +34,7 @@
             * ストリーミング処理：Webアプリを立ち上げて、`Kafka`や`PySpark Streaming`を利用して、アクセスレイヤのDBで集計し`Metabase`から確認を行う
     * [【PythonとSparkで始めるデータマネジメント入門】 ビッグデータレイクのためのテーブルデータ品質管理入門](https://www.udemy.com/course/python-spark-data-quality/)
     * [【PythonとSparkで始めるデータマネジメント入門】 ビッグデータレイクのための統合メタデータ管理入門](https://www.udemy.com/course/datamanagement-spark-metadata/)
-    * ~~[【実戦で学ぶデータサイエンス講座】リレーショナルデータベースで始めるデータ活用とデータ分析のためのSQLを学ぼう](https://www.udemy.com/course/business_sql/)~~
+    * [~~【実戦で学ぶデータサイエンス講座】リレーショナルデータベースで始めるデータ活用とデータ分析のためのSQLを学ぼう~~](https://www.udemy.com/course/business_sql/)~~
         * SQLについての内容がメインであり、SQLは一定の理解度があるため延期
 
 ### 6月
