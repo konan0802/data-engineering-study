@@ -22,9 +22,9 @@
     * [『エンジニアのためのデータ分析基盤入門』](https://amzn.asia/d/0yDiDoo)
 * Udemy
     * [超速入門!【データサイエンスへの最初の一歩】PythonとSparkで学ぶデータ分析のための前処理と分散処理 一気見講座](https://www.udemy.com/course/spark-python-crush-course/)
-        * データエンジニアリングの全体像と、PySparkにおけるデータの前処理について学習
+        * データエンジニアリングの全体像と、`PySpark`におけるデータの前処理について学習
     * [データサイエンスのための前処理入門PythonとSparkで学ぶビッグデータエンジニアリング(PySpark) 速習講座](https://www.udemy.com/course/python-spark-pyspark/)
-        * PySparkについてより実践的（実際に利用されている形）な内容を学習
+        * `PySpark`についてより実践的（実際に利用されている形）な内容を学習
     * [データサイエンスのためのストリーミング前処理入門　PythonとSparkで始めるビッグデータストリーミング処理入門](https://www.udemy.com/course/python-spark-streaming/) 
         * データエンジニアリングの中でもストリーミング処理について重点的に学習
             * `Kafka`と`PySpark Streaming`の連携など
