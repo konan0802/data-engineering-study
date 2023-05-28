@@ -43,7 +43,7 @@
 * Udemy
     * [Google BigQueryとGoogle Data Portal【旧Data Studio】から始めるデータ活用入門](https://www.udemy.com/course/bigquery_dataportal_basic/)
     * ~~[BigQueryで学ぶ！実践SQLデータ分析：ITサービス改善につなげよう](https://www.udemy.com/course/bq-sql-analysis/)~~
-        * またここで学びたかったBigQueryは上の教材で学べるため延期
+        * これで学びたかったBigQueryは上の教材で学べるため延期
 * 実践
     * **クラウド上でにおいてWebアプリからBIツールでのデータ分析基盤の構築**
         * データソース　　　　　：自作Webアプリ（EC2）
