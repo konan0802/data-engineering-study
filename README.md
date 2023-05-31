@@ -50,6 +50,7 @@
         * プロセシングレイヤー　：Kinesis firehose
         * ストレージレイヤー　　：S3
         * アクセスレイヤー　　　：Athena
+        * メタデータ　　　　　　：
     * **[データ分析基盤_各社事例集](https://docs.google.com/document/d/1DYD324wwbWTu5QFk93WcG7pb18XCNw561MBtwO_mVBo/edit?usp=sharing)を収集＆調査**
         * 事例から不足知識を補う
         * サービス毎の理想イメージを掴む
