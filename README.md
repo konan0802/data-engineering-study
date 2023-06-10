@@ -57,6 +57,7 @@
 
 ### 参考資料
 * [〜未踏の地〜データドリブン経営の最新考](https://blog.trocco.io/event/business_and_data_newspicks_20230530)
+* [データエンジニアが最初に学ぶべき3つのポイント：「ETL」「データモデリング」「ワークフロー」](https://gihyo.jp/article/2023/06/3things-data-engineer-should-learn-first)
 * [データエンジニアのことを“バ美肉おじさん”に聞いてみよう
 業界トップの菱沼氏が思う、仕事の魅力と必要なスキルとは](https://logmi.jp/tech/articles/328753)
 * [Tableau ラーニング](https://www.tableau.com/ja-jp/learn)
