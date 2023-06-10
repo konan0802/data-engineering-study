@@ -6,10 +6,31 @@
 2. BigQueryとData Portalを連携し、データマートの設計とダッシュボードの作成。
 
 ## セクション2: はじめに
-
+* データ活用に必要なシステム全体像
 
 ## セクション3: データ基盤の基礎
-
+* 各システム
+    * データソース
+    * ETL（ELT）
+        * Talend
+        * IBM InfoSophere
+        * DataStage
+        * RapidMiner
+        * DataSpider Cloud
+    * DWH
+        * BigQuery
+        * Redshift
+        * Snowflake
+    * DM
+        * 一般的にはDWHで採用されているシステムの上に構築されるケースが多い
+    * BIツール
+        * Data Portal
+        * Power BI
+        * Tableau
+* 最近のトレンド
+    * ETLからELT
+        * DWHの前にDataLakeを置く
+    * 上記のシステムの垣根が曖昧になってきている
 
 ## セクション4: BigQueryとSQLの基礎（基本概念~環境構築まで）
 
