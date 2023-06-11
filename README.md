@@ -61,7 +61,7 @@
             * メタデータ　　　　　　：AWS Glue Data Catalog
     * **[データ分析基盤_各社事例集](https://docs.google.com/document/d/1DYD324wwbWTu5QFk93WcG7pb18XCNw561MBtwO_mVBo/edit?usp=sharing)を収集＆調査**
         * 事例から不足知識を補う
-        * サービス毎の理想イメージを掴む
+        * サービス毎のアーキテクチャーイメージを掴む
 
 ### 参考資料
 * [〜未踏の地〜データドリブン経営の最新考](https://blog.trocco.io/event/business_and_data_newspicks_20230530)
