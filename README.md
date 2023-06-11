@@ -53,7 +53,7 @@
 * 書籍
     * [『実践的データ基盤への処方箋』](https://amzn.asia/d/7FBkI6V)
         * データ活用しビジネス価値を創出するための現場のノウハウ
-        * 「使われないデータ基盤」を「使われるデータきばん」にし、さらには「進化し続けるデータ基盤」にするための処方箋
+        * 「使われないデータ基盤」を「使われるデータ基盤」にし、さらには「進化し続けるデータ基盤」にするための処方箋
         * [メモ](./%E5%AE%9F%E8%B7%B5%E7%9A%84%E3%83%87%E3%83%BC%E3%82%BF%E5%9F%BA%E7%9B%A4%E3%81%B8%E3%81%AE%E5%87%A6%E6%96%B9%E7%AE%8B.md)
 * Udemy
     * [Google BigQueryとGoogle Data Portal【旧Data Studio】から始めるデータ活用入門](https://www.udemy.com/course/bigquery_dataportal_basic/)
