@@ -49,7 +49,7 @@
         * UNPIVOT
 
 ## セクション6: Data Portalとデータ可視化の基礎（基本概念~環境構築まで）
-* Looker Studioについいて
+* Looker Studioについて
 
 ## セクション7: Data Portalとデータ可視化の基礎（Data Portalの基本操作）
 * Looker Studioの基本操作
@@ -59,4 +59,4 @@
         * <img src="./rpt_sales_dashboard.png" width="450">
 
 ## セクション8: 【チャレンジ】国勢調査（労働力調査）データを使ったダッシュボード作成
-
+* 
