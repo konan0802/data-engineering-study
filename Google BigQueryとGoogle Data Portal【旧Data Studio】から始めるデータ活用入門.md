@@ -59,4 +59,15 @@
         * <img src="./rpt_sales_dashboard.png" width="450">
 
 ## セクション8: 【チャレンジ】国勢調査（労働力調査）データを使ったダッシュボード作成
-* 
+* データソース
+    * 国勢調査（労働力調査）
+        * 政府統計「e-Stat」公式サイト
+            * https://www.e-stat.go.jp/
+        * 総務省統計局（統計メールニュース）
+            * https://www.stat.go.jp/info/mail/
+        * 総務省統計局（サイトの利用について）
+            * https://www.stat.go.jp/info/riyou.html
+* 演習
+    * DMの作成
+    * ダッシュボードの作成
+        * <img src="./rpt_labor_dashboard.png" width="450">
