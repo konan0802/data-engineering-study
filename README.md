@@ -31,16 +31,16 @@
         * [メモ](./%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E5%88%86%E6%9E%90%E5%9F%BA%E7%9B%A4%E5%85%A5%E9%96%80.md)
 * Udemy
     * [超速入門!【データサイエンスへの最初の一歩】PythonとSparkで学ぶデータ分析のための前処理と分散処理 一気見講座](https://www.udemy.com/course/spark-python-crush-course/)
-        * データエンジニアリングの全体像と、`PySpark`におけるデータの前処理について学習
+        * データエンジニアリングの全体像と、PySparkにおけるデータの前処理について学習
     * [データサイエンスのための前処理入門PythonとSparkで学ぶビッグデータエンジニアリング(PySpark) 速習講座](https://www.udemy.com/course/python-spark-pyspark/)
-        * `PySpark`についてより実践的（実際に利用されている形）な内容を学習
+        * PySparkについてより実践的（実際に利用されている形）な内容を学習
     * [データサイエンスのためのストリーミング前処理入門　PythonとSparkで始めるビッグデータストリーミング処理入門](https://www.udemy.com/course/python-spark-streaming/) 
         * データエンジニアリングの中でもストリーミング処理について重点的に学習
-            * `Kafka`と`PySpark Streaming`の連携など
+            * KafkaとPySpark Streamingの連携など
     * [【実戦で学ぶデータ分析基盤構築講座】ローカル端末で1から始めるデータ分析基盤の構築とデータ活用のための活動](https://www.udemy.com/course/dataplatform_local/)
         * データ分析基盤の全体像について自身で構築
-            * バッチ処理：データソースのDBから`Embulk`や`PySpark`を利用して、アクセスレイヤのDBに集計し、`Metabase`から確認を行う
-            * ストリーミング処理：Webアプリを立ち上げて、`Kafka`や`PySpark Streaming`を利用して、アクセスレイヤのDBで集計し`Metabase`から確認を行う
+            * バッチ処理：データソースのDBからEmbulkやPySparkを利用して、アクセスレイヤのDBに集計し、Metabaseから確認を行う
+            * ストリーミング処理：Webアプリを立ち上げて、KafkaやPySpark Streamingを利用して、アクセスレイヤのDBで集計しMetabaseから確認を行う
         * [メモ](./%E3%80%90%E5%AE%9F%E6%88%A6%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%83%BC%E3%82%BF%E5%88%86%E6%9E%90%E5%9F%BA%E7%9B%A4%E6%A7%8B%E7%AF%89%E8%AC%9B%E5%BA%A7%E3%80%91%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E7%AB%AF%E6%9C%AB%E3%81%A71%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E3%83%87%E3%83%BC%E3%82%BF%E5%88%86%E6%9E%90%E5%9F%BA%E7%9B%A4%E3%81%AE%E6%A7%8B%E7%AF%89%E3%81%A8%E3%83%87%E3%83%BC%E3%82%BF%E6%B4%BB%E7%94%A8%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E6%B4%BB%E5%8B%95.md)
     * [【PythonとSparkで始めるデータマネジメント入門】 ビッグデータレイクのためのテーブルデータ品質管理入門](https://www.udemy.com/course/python-spark-data-quality/)
         * データ品質管理について学習
