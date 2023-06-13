@@ -96,6 +96,8 @@
 ### 参考資料
 * [〜未踏の地〜データドリブン経営の最新考](https://blog.trocco.io/event/business_and_data_newspicks_20230530)
     * [メモ](./%E3%80%9C%E6%9C%AA%E8%B8%8F%E3%81%AE%E5%9C%B0%E3%80%9C%E3%83%87%E3%83%BC%E3%82%BF%E3%83%89%E3%83%AA%E3%83%96%E3%83%B3%E7%B5%8C%E5%96%B6%E3%81%AE%E6%9C%80%E6%96%B0%E8%80%83.md)
+* [キーエンスの歴史から学ぶ！小さくはじめて最速で成果をだすデータ活用の方法](https://blog.trocco.io/seminar/keyence_quick-win_20230613)
+    * [メモ](./%E3%80%8E%E3%82%AD%E3%83%BC%E3%82%A8%E3%83%B3%E3%82%B9%E3%81%AE%E6%AD%B4%E5%8F%B2%E3%81%8B%E3%82%89%E5%AD%A6%E3%81%B6%EF%BC%81%E5%B0%8F%E3%81%95%E3%81%8F%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6.md)
 * [データエンジニアが最初に学ぶべき3つのポイント：「ETL」「データモデリング」「ワークフロー」](https://gihyo.jp/article/2023/06/3things-data-engineer-should-learn-first)
 * [データエンジニアのことを“バ美肉おじさん”に聞いてみよう
 業界トップの菱沼氏が思う、仕事の魅力と必要なスキルとは](https://logmi.jp/tech/articles/328753)
