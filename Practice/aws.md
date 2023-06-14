@@ -6,3 +6,4 @@
 * ストレージレイヤー　　：S3
 * アクセスレイヤー　　　：Athena
 * メタデータ　　　　　　：AWS Glue Data Catalog
+* ワークフローエンジン：Airflow

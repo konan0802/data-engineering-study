@@ -9,3 +9,4 @@
     * DWH　　　　：BigQuery
 * アクセスレイヤー　　　：Looker Studio
 * メタデータ　　　　　　：Data Catalog
+* ワークフローエンジン：Airflow
