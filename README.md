@@ -74,21 +74,11 @@
         * BigQueryは上の教材で学べるため延期
 * 実践
     * **クラウド上でのデータ分析基盤の構築**
-        * GCP
-            * データソース　　　　　：自作Webアプリ（GCE）
-            * プロセシングレイヤー　：Dataproc（or Dataflow）
-                * [GCPのデータ処理・ETL系サービスの使い分け](https://qiita.com/tomoyanamekawa/items/e45317bada702159add0)
-            * ストレージレイヤー　　：BigQuery
-            * アクセスレイヤー　　　：Looker Studio
-            * メタデータ　　　　　　：Data Catalog
-        * AWS
-            * データソース　　　　　：自作Webアプリ（EC2）
-            * プロセシングレイヤー　：Kinesis
-            * ストレージレイヤー　　：S3
-            * アクセスレイヤー　　　：Athena
-            * メタデータ　　　　　　：AWS Glue Data Catalog
-        * その他
+        * [GCP](./Practice/gcp.md)
+        * [AWS](./Practice/aws.md)
+        * 使ってみたいサービス
             * Snowflake
+            * trocco
     * **[データ分析基盤_各社事例集](https://docs.google.com/document/d/1DYD324wwbWTu5QFk93WcG7pb18XCNw561MBtwO_mVBo/edit?usp=sharing)を収集＆調査**
         * 事例から不足知識を補う
         * サービス毎のアーキテクチャーイメージを掴む
