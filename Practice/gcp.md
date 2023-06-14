@@ -10,3 +10,7 @@
 * アクセスレイヤー　　　：Looker Studio
 * メタデータ　　　　　　：Data Catalog
 * ワークフローエンジン：Airflow
+
+## 参考記事
+* [Cloud Monitoring と Cloud Loggingについて](https://konan0802-cautious-space-robot-5xxr7grqg64f7x5r.github.dev/?autoStart=false)
+* [Loggingエージェントを捨ててOpsエージェントに乗り換える](https://cloud-ace.jp/column/detail284/)
