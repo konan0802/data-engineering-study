@@ -73,7 +73,7 @@
     * ~~[BigQueryで学ぶ！実践SQLデータ分析：ITサービス改善につなげよう](https://www.udemy.com/course/bq-sql-analysis/)~~
         * BigQueryは上の教材で学べるため延期
 * 実践
-    * **クラウド上でのWebアプリにおけるデータ分析基盤の構築**
+    * **クラウド上でのデータ分析基盤の構築**
         * GCP
             * データソース　　　　　：自作Webアプリ（GCE）
             * プロセシングレイヤー　：Dataproc（or Dataflow）

@@ -56,7 +56,7 @@
 * 演習
     * DMの作成
     * ダッシュボードの作成
-        * <img src="./rpt_sales_dashboard.png" width="450">
+        * <img src="../Img/rpt_sales_dashboard.png" width="450">
 
 ## セクション8: 【チャレンジ】国勢調査（労働力調査）データを使ったダッシュボード作成
 * データソース
@@ -70,4 +70,4 @@
 * 演習
     * DMの作成
     * ダッシュボードの作成
-        * <img src="./rpt_labor_dashboard.png" width="450">
+        * <img src="../Img/rpt_labor_dashboard.png" width="450">
