@@ -91,5 +91,6 @@
 * [データエンジニアが最初に学ぶべき3つのポイント：「ETL」「データモデリング」「ワークフロー」](https://gihyo.jp/article/2023/06/3things-data-engineer-should-learn-first)
 * [データエンジニアのことを“バ美肉おじさん”に聞いてみよう
 業界トップの菱沼氏が思う、仕事の魅力と必要なスキルとは](https://logmi.jp/tech/articles/328753)
+* [ダッシュボードを作ったら業務工数削減に繋がった件](https://speakerdeck.com/mkmk000/datusiyubodozuo-tutaraye-wu-gai-shan-nixi-gatutajian)
 * [Tableau ラーニング](https://www.tableau.com/ja-jp/learn)
     * [Tableau 認定資格](https://www.tableau.com/ja-jp/learn/certification)
