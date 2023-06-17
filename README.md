@@ -92,5 +92,6 @@
 * [データエンジニアのことを“バ美肉おじさん”に聞いてみよう
 業界トップの菱沼氏が思う、仕事の魅力と必要なスキルとは](https://logmi.jp/tech/articles/328753)
 * [ダッシュボードを作ったら業務工数削減に繋がった件](https://speakerdeck.com/mkmk000/datusiyubodozuo-tutaraye-wu-gai-shan-nixi-gatutajian)
+* [データ活用が事業貢献していることを示すための取り組み](https://speakerdeck.com/cyberagentdevelopers/detahuo-yong-gashi-ye-gong-xian-siteirukotowoshi-sutamenoqu-rizu-mi)
 * [Tableau ラーニング](https://www.tableau.com/ja-jp/learn)
     * [Tableau 認定資格](https://www.tableau.com/ja-jp/learn/certification)
