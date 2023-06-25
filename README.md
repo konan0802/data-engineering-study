@@ -72,6 +72,12 @@
         * [メモ](./Udemy/Google%20BigQuery%E3%81%A8Google%20Data%20Portal%E3%80%90%E6%97%A7Data%20Studio%E3%80%91%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E3%83%87%E3%83%BC%E3%82%BF%E6%B4%BB%E7%94%A8%E5%85%A5%E9%96%80.md)
     * ~~[BigQueryで学ぶ！実践SQLデータ分析：ITサービス改善につなげよう](https://www.udemy.com/course/bq-sql-analysis/)~~
         * BigQueryは上の教材で学べるため延期
+* 仕事
+    * データ基盤の構築
+        * BIツール（Metabase）
+        * ヘルススコア
+
+### 7月
 * 実践
     * **クラウド上でのデータ分析基盤の構築**
         * [GCP](./Practice/gcp.md)
