@@ -3,13 +3,13 @@
 beer-and-bread
 
 ## ページ構成
-| パス                               | 概要      |
-| ---                               | ---       |
+| パス                               | 概要       |
+| ---                               | ---        |
+| /                                 | 商品一覧    |
 | /login                            | ログイン画面 |
-| /item                             | 商品一覧   |
 | /user/{uuid}/cart                 | カート      |
-| /user/{uuid}/checkout             | 購入手続き  |
-| /user/{uuid}/order/confirmation   | 購入完了   |
+| /user/{uuid}/checkout             | 購入手続き   |
+| /user/{uuid}/order/confirmation   | 購入完了     |
 
 ## 商品一覧
 | 商品ID | 商品カテゴリ | 商品名                       | 単価（円） |
