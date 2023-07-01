@@ -32,6 +32,6 @@ switch ($url) {
         include './app/thanks.php';
         exit;
     default:
-        redirect('Location: http://34.146.250.210/');
+        redirect('Location: /');
         exit;
 }
