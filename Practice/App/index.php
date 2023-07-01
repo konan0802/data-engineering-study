@@ -1,4 +1,7 @@
 <?php
+
+require_once './model/Database.php';
+
 // URLパラメータからルートパスを取得する
 $url = $_SERVER['REQUEST_URI'];
 
@@ -12,24 +15,26 @@ $username = $_COOKIE["username"];
 if ($url !== "/login" && is_null($username)) {
     header('Location: /login');
     exit;
+} else {
+    
 }
 
 // パスごとに適切なコントローラーとアクションを呼び出す
 switch ($url) {
     case "/":
-        include './app/products.php';
+        include './view/products.php';
         exit;
     case "/login":
-        include "./app/login.php";
+        include "./view/login.php";
         exit;
     case "/user/{$uid}/cart":
-        include './app/cart.php';
+        include './view/cart.php';
         exit;
     case "/user/{$uid}/checkout":
-        include './app/checkout.php';
+        include './view/checkout.php';
         exit;
     case "/user/{$uid}/order/confirmation":
-        include './app/thanks.php';
+        include './view/thanks.php';
         exit;
     default:
         redirect('Location: /');

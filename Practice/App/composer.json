@@ -1,0 +1,17 @@
+{
+    "name": "konanforbis/app",
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Konanforbis\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "konan0802",
+            "email": "konanforbis@gmail.com"
+        }
+    ]
+}
