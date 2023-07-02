@@ -1,5 +1,4 @@
 # 麦酒とパン（ビールとパンの通販デモサイト）
-
 beer-and-bread
 
 ## ページ構成
@@ -7,44 +6,30 @@ beer-and-bread
 | ---                               | ---        |
 | /                                 | 商品一覧    |
 | /login                            | ログイン画面 |
-| /user/{uuid}/cart                 | カート      |
-| /user/{uuid}/checkout             | 購入手続き   |
-| /user/{uuid}/order/confirmation   | 購入完了     |
-
-## 商品一覧
-| 商品ID | 商品カテゴリ | 商品名                       | 単価（円） |
-| ---   | ---       | ---                         | --- |
-| 1     | 1 (beer)  | アサヒ スーパードライ             | 223 |
-| 2     | 1 (beer)  | キリン 一番搾り                 | 223 |
-| 3     | 1 (beer)  | サッポロ 黒ラベル               | 223 |
-| 4     | 1 (beer)  | サントリー ザ･プレミアムモルツ      | 245 |
-| 5     | 1 (beer)  | サントリー パーフェクトサントリービール | 207 |
-| 6     | 2 (bread) | チーズフォカッチャ               | 350 |
-| 7     | 2 (bread) | ポンデケージョ                  | 350 |
-| 8     | 2 (bread) | パンツェロット                   | 350 |
-| 9     | 2 (bread) | ゼッポリーニ                    | 350 |
-| 10    | 2 (bread) | ホットドッグ                    | 350 |
+| /user/{uid}/cart                 | カート      |
+| /user/{uid}/checkout             | 購入手続き   |
+| /user/{uid}/order/confirmation   | 購入完了     |
 
 ## テーブル
 * Users
     ```sql
-    CREATE TABLE Users (
-        uuid     CHAR(36) NOT NULL     COMMENT 'UUID形式のユーザーID',
-        username VARCHAR(255) NOT NULL COMMENT 'ユーザーの名前',
-        email    VARCHAR(255) NOT NULL COMMENT 'ユーザーのメールアドレス',
-        PRIMARY KEY (uuid)
-    ) COMMENT='ユーザー情報を管理するテーブル';
+    CREATE TABLE `Users` (
+        `uid`      int NOT NULL AUTO_INCREMENT COMMENT 'ユーザーID',
+        `username` varchar(255) NOT NULL       COMMENT 'ユーザーの名前',
+        `email`    varchar(255) NOT NULL       COMMENT 'ユーザーのメールアドレス',
+        PRIMARY KEY (`uid`)
+    ) COMMENT='ユーザー情報を管理するテーブル'
     ```
 
 * Products
     ```sql
-    CREATE TABLE Products (
-        id          INT AUTO_INCREMENT     COMMENT '商品ID',
-        category    INT                    COMMENT '商品カテゴリ（1:beer,2:bread）',
-        name        VARCHAR(255) NOT NULL  COMMENT '商品名',
-        price       DECIMAL(10,2) NOT NULL COMMENT '商品価格',
-        PRIMARY KEY (id)
-    ) COMMENT='商品情報を管理するテーブル';
+    CREATE TABLE `Products` (
+        `id`       int NOT NULL AUTO_INCREMENT COMMENT '商品ID',
+        `category` int DEFAULT NULL            COMMENT '商品カテゴリ（1:beer,2:bread）',
+        `name`     varchar(255) NOT NULL       COMMENT '商品名',
+        `price`    int NOT NULL                COMMENT '商品価格',
+        PRIMARY KEY (`id`)
+    ) COMMENT='商品情報を管理するテーブル' 
     ```
 
 * Carts
@@ -82,4 +67,9 @@ beer-and-bread
         FOREIGN KEY (product_id) REFERENCES Products(id),
         PRIMARY KEY (order_id, product_id)
     ) COMMENT='注文詳細を管理するテーブル';
+    ```
+## DB操作
+* DB接続
+    ```sql
+    USE prod_db;
     ```
