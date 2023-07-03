@@ -13,7 +13,6 @@ if ($url === "/login") {
 }
 
 // 未ログインの場合はログイン画面にリダイレクト
-$uid = $_COOKIE["uid"];
 if (is_null($uid)) {
     header('Location: /login');
     exit;

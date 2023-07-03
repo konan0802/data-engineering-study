@@ -1,8 +1,5 @@
 <?php
 
-// URLパラメータからルートパスを取得する
-$url = $_SERVER['REQUEST_URI'];
-
 require_once './config.php';
 require_once './login_check.php';
 
