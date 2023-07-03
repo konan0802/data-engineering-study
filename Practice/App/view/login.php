@@ -35,5 +35,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <br>
         <input type="submit" value="ログイン">
     </form>
+
+    <br>
+    <p>アカウントをお持ちでない方はこちら:</p>
+    <a href="/signup">新規アカウント作成</a>
 </body>
 </html>

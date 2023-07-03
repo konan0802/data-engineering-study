@@ -9,9 +9,6 @@ switch ($url) {
     case "/":
         include './view/products.php';
         exit;
-    case "/login":
-        include "./view/login.php";
-        exit;
     case "/user/{$uid}/cart":
         include './view/cart.php';
         exit;

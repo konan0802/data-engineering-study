@@ -12,6 +12,12 @@ if ($url === "/login") {
     exit;
 }
 
+// ログイン画面の場合は遷移
+if ($url === "/signup") {
+    include "./view/signup.php";
+    exit;
+}
+
 // 未ログインの場合はログイン画面にリダイレクト
 if (is_null($uid)) {
     header('Location: /login');

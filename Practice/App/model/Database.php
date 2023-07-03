@@ -44,13 +44,26 @@ class Database {
         return $result;
     }
 
-    public function query($sql) {
-        $result = $this->connection->query($sql);
-
-        if (!$result) {
-            die("クエリ実行エラー: " . $this->connection->error);
-        }
-
-        return $result;
+    public function createUser(
+        string $username,
+        string $email,
+        string $password,
+        int $gender,
+        int $age,
+        string $prefecture
+    ) {
+        $sql = "INSERT INTO Users (username, email, password, gender, age, prefecture)
+                VALUES (?, ?, ?, ?, ?, ?)";
+        $stmt = $this->conn->prepare($sql);
+        $stmt->bindParam(1, $username, PDO::PARAM_STR);
+        $stmt->bindParam(2, $email, PDO::PARAM_STR);
+        $stmt->bindParam(3, $password, PDO::PARAM_STR);
+        $stmt->bindParam(4, $gender, PDO::PARAM_INT);
+        $stmt->bindParam(5, $age, PDO::PARAM_INT);
+        $stmt->bindParam(6, $prefecture, PDO::PARAM_STR);
+        $stmt->execute();
     }
+    
+
+
 }
