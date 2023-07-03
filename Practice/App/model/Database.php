@@ -71,5 +71,52 @@ class Database {
         return $products;
     }
 
+    public function addToCart(int $userId, int $productId, int $quantity)
+    {
+        // 既存のカート内の数量を更新するために、同じユーザーと商品の組み合わせのレコードを検索
+        $existingCart = $this->fetchCartByUserAndProduct($userId, $productId);
+    
+        if ($existingCart) {
+            // 既存のレコードが存在する場合、数量を更新する
+            $newQuantity = $existingCart['quantity'] + $quantity;
+            $this->updateCartQuantity($existingCart['id'], $newQuantity);
+        } else {
+            // 既存のレコードが存在しない場合、新しいレコードを挿入する
+            $this->insertCartRecord($userId, $productId, $quantity);
+        }
+    }
+    
+    private function fetchCartByUserAndProduct(int $userId, int $productId)
+    {
+        $sql = "SELECT * FROM Cart WHERE user_id = ? AND product_id = ?";
+        $stmt = $this->conn->prepare($sql);
+        $stmt->bindParam(1, $userId, PDO::PARAM_INT);
+        $stmt->bindParam(2, $productId, PDO::PARAM_INT);
+        $stmt->execute();
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
+    
+    private function updateCartQuantity(int $cartId, int $newQuantity)
+    {
+        $sql = "UPDATE Cart SET quantity = ? WHERE id = ?";
+        $stmt = $this->conn->prepare($sql);
+        $stmt->bindParam(1, $newQuantity, PDO::PARAM_INT);
+        $stmt->bindParam(2, $cartId, PDO::PARAM_INT);
+        $stmt->execute();
+    }
+    
+    private function insertCartRecord(int $userId, int $productId, int $quantity)
+    {
+        $sql = "INSERT INTO Cart (user_id, product_id, quantity)
+                VALUES (?, ?, ?)";
+        $stmt = $this->conn->prepare($sql);
+        $stmt->bindParam(1, $userId, PDO::PARAM_INT);
+        $stmt->bindParam(2, $productId, PDO::PARAM_INT);
+        $stmt->bindParam(3, $quantity, PDO::PARAM_INT);
+        $stmt->execute();
+    }
+    
+
+
 
 }
