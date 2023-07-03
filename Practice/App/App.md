@@ -14,9 +14,10 @@ beer-and-bread
 * Users
     ```sql
     CREATE TABLE `Users` (
-        `uid`      int NOT NULL AUTO_INCREMENT COMMENT 'ユーザーID',
-        `username` varchar(255) NOT NULL       COMMENT 'ユーザーの名前',
-        `email`    varchar(255) NOT NULL       COMMENT 'ユーザーのメールアドレス',
+        `uid` int NOT NULL AUTO_INCREMENT COMMENT 'ユーザーID',
+        `username` varchar(255) NOT NULL COMMENT 'ユーザーの名前',
+        `email` varchar(255) NOT NULL COMMENT 'ユーザーのメールアドレス',
+        `password` varchar(255) NOT NULL COMMENT 'ユーザーのパスワード',
         PRIMARY KEY (`uid`)
     ) COMMENT='ユーザー情報を管理するテーブル'
     ```

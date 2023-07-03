@@ -1,14 +1,19 @@
 <?php
-// login.php
 
 // POSTリクエストの場合のみ処理を実行する
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
     // ユーザーから送信されたフォームデータを取得
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    setcookie("username", $username);
+    $user = $db->fetchUserFromUserName($username, $password);
+    if (!$user) {
+        header('Location: /login');
+        exit;
+    }
 
+    setcookie("uid", $user['uid']);
     header('Location: /');
 }
 ?>
@@ -21,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
     <h1>ログイン</h1>
-    <form method="POST" action="login.php">
+    <form method="POST" action="">
         <label for="username">ユーザー名:</label>
         <input type="text" name="username" id="username" required>
         <br>
