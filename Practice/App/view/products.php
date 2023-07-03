@@ -54,7 +54,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <hr>
     <?php endforeach; ?>
 
-    <button class="cart-button" onclick="location.href='/user/'.$user['uid'].'/cart.php'">カートを見る</button>
+    <button class="cart-button" onclick="location.href='/cart'">カートを見る</button>
 
 </body>
 </html>

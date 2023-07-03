@@ -1,23 +1,45 @@
 <?php
-session_start();
 
-$pdo = new PDO('mysql:host=localhost;dbname=yourdbname', 'username', 'password');
+// カート内の商品情報を取得するSQLクエリ
+$cartItems = $db->fetchCartItems($user['uid']);
 
-if (isset($_GET['add'])) {
-    $productId = $_GET['add'];
-    $_SESSION['cart'][$productId] = $_SESSION['cart'][$productId] ?? 0;
-    $_SESSION['cart'][$productId]++;
-
-    $uuid = $_SESSION['uuid'];
-    $quantity = $_SESSION['cart'][$productId];
-
-    $stmt = $pdo->prepare("REPLACE INTO Carts (uuid, product_id, quantity) VALUES (?, ?, ?)");
-    $stmt->execute([$uuid, $productId, $quantity]);
-}
-
-$stmt = $pdo->prepare("SELECT * FROM Carts INNER JOIN Products ON Carts.product_id = Products.id WHERE uuid = ?");
-$stmt->execute([$_SESSION['uuid']]);
-$cart = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
-<?php foreach ($cart as $item): ?>
-<div>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>カート</title>
+</head>
+<body>
+    <h1>カート</h1>
+
+    <?php if (empty($cartItems)): ?>
+        <p>カートは空です。</p>
+    <?php else: ?>
+        <table>
+            <thead>
+                <tr>
+                    <th>商品名</th>
+                    <th>価格</th>
+                    <th>数量</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php foreach ($cartItems as $cartItem): ?>
+                    <tr>
+                        <td><?php echo $cartItem['name']; ?></td>
+                        <td><?php echo $cartItem['price']; ?>円</td>
+                        <td><?php echo $cartItem['quantity']; ?></td>
+                    </tr>
+                <?php endforeach; ?>
+            </tbody>
+        </table>
+    <?php endif; ?>
+
+    <br>
+
+    <a href="/checkout">決算へ進む</a>
+
+</body>
+</html>

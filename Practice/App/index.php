@@ -6,13 +6,13 @@ switch ($url) {
     case "/":
         include './view/products.php';
         exit;
-    case "/user/{$uid}/cart":
+    case "/cart":
         include './view/cart.php';
         exit;
-    case "/user/{$uid}/checkout":
+    case "/checkout":
         include './view/checkout.php';
         exit;
-    case "/user/{$uid}/order/confirmation":
+    case "/order/confirmation":
         include './view/thanks.php';
         exit;
     default:

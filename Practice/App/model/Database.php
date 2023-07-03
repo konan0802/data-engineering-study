@@ -116,6 +116,16 @@ class Database {
         $stmt->execute();
     }
     
+    public function fetchCartItems(int $userId) {
+        $sql = "SELECT p.name, p.price, c.quantity
+                FROM Cart c
+                INNER JOIN Products p ON c.product_id = p.id
+                WHERE c.user_id = ?";
+        $stmt = $this->conn->prepare($sql);
+        $stmt->bindParam(1, $userId, PDO::PARAM_INT);
+        $stmt->execute();
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
 
 
 
