@@ -1,15 +1,28 @@
 <?php
-session_start();
 
-$pdo = new PDO('mysql:host=localhost;dbname=yourdbname', 'username', 'password');
+// 商品情報を取得するSQLクエリ
+$products = $db->fetchAllProducts();
 
-$stmt = $pdo->query("SELECT * FROM Products");
-$products = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
 ?>
-<?php foreach ($products as $product): ?>
-<div>
-    <h2><?= htmlspecialchars($product['name']) ?></h2>
-    <p>Price: <?= htmlspecialchars($product['price']) ?></p>
-    <a href="cart.php?add=<?= htmlspecialchars($product['id']) ?>">Add to Cart</a>
-</div>
-<?php endforeach; ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>商品一覧</title>
+</head>
+<body>
+    <h1>商品一覧</h1>
+
+    <?php foreach ($products as $product): ?>
+        <div>
+            <h3><?php echo $product['name']; ?></h3>
+            <p>価格: <?php echo $product['price']; ?>円</p>
+            <p>カテゴリ: <?php echo ($product['category'] === 1) ? 'beer' : 'bread'; ?></p>
+        </div>
+        <hr>
+    <?php endforeach; ?>
+
+</body>
+</html>

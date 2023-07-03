@@ -64,6 +64,12 @@ class Database {
         $stmt->execute();
     }
     
+    public function fetchAllProducts() {
+        $sql = "SELECT * FROM Products";
+        $stmt = $this->conn->query($sql);
+        $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        return $products;
+    }
 
 
 }

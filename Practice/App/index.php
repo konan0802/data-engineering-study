@@ -2,9 +2,6 @@
 require_once './config.php';
 require_once './login_check.php';
 
-var_dump("ok");
-exit;
-
 switch ($url) {
     case "/":
         include './view/products.php';
