@@ -39,7 +39,7 @@ $cartItems = $db->fetchCartItems($user['uid']);
 
     <br>
 
-    <a href="/checkout">決算へ進む</a>
+    <a href="/checkout">レジへ進む</a>
 
 </body>
 </html>

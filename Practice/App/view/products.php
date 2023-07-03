@@ -11,6 +11,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         // カートに商品を追加するメソッドを呼び出す
         $db->addToCart($user['uid'], $productId, $quantity);
+
+        // リダイレクトして重複操作を防ぐ
+        header('Location: /');
+        exit;
     }
 }
 
