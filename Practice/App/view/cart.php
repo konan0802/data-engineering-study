@@ -39,7 +39,7 @@ $cartItems = $db->fetchCartItems($user['uid']);
 
     <br>
 
-    <a href="/confirmation">購入</a>
+    <button class="comp-button" onclick="location.href='/completed'">購入</button>
 
 </body>
 </html>

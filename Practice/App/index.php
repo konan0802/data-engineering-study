@@ -9,10 +9,10 @@ switch ($url) {
     case "/cart":
         include './view/cart.php';
         exit;
-    case "/order/confirmation":
-        include './view/thanks.php';
+    case "/completed":
+        include './view/completed.php';
         exit;
     default:
-        redirect('Location: /');
+        header('Location: /');
         exit;
 }

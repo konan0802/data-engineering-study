@@ -194,4 +194,42 @@ class Database {
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
+
+    /**
+     * カートのステータスを完了に更新し、購入完了商品をPurchaseHistoryテーブルに追加します。
+     *
+     * @param int $userId ユーザーID
+     * @return void
+     * @throws Exception エラーハンドリング用の例外
+     */
+    public function updateCartStatus(int $userId) {
+        try {
+            $this->conn->beginTransaction();
+
+            // カートのステータスを完了に更新するSQLクエリ
+            $updateCartStatusSql = "UPDATE Cart
+                                    SET status = 1
+                                    WHERE user_id = ?
+                                    AND status = 0";
+            $updateCartStatusStmt = $this->conn->prepare($updateCartStatusSql);
+            $updateCartStatusStmt->bindParam(1, $userId, PDO::PARAM_INT);
+            $updateCartStatusStmt->execute();
+
+            // 購入商品をPurchaseHistoryテーブルに追加するSQLクエリ
+            $insertPurchaseSql = "INSERT INTO PurchaseHistory (user_id, product_id, quantity)
+                                  SELECT c.user_id, c.product_id, c.quantity
+                                  FROM Cart c
+                                  WHERE c.user_id = ?
+                                  AND c.status = 1";
+            $insertPurchaseStmt = $this->conn->prepare($insertPurchaseSql);
+            $insertPurchaseStmt->bindParam(1, $userId, PDO::PARAM_INT);
+            $insertPurchaseStmt->execute();
+
+            $this->conn->commit();
+        } catch (Exception $e) {
+            $this->conn->rollback();
+            throw $e;
+        }
+    }
+
 }
