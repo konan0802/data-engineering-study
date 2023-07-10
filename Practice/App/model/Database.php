@@ -165,9 +165,7 @@ class Database {
      *
      * @param int $userId ユーザーID
      * @param int $productId 商品ID
-     * @param
-
- int $quantity 数量
+     * @param int $quantity 数量
      */
     private function insertCartRecord(int $userId, int $productId, int $quantity)
     {

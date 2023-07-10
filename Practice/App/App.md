@@ -7,7 +7,6 @@ beer-and-bread
 | /                                 | 商品一覧    |
 | /login                            | ログイン画面 |
 | /user/{uid}/cart                 | カート      |
-| /user/{uid}/checkout             | 購入手続き   |
 | /user/{uid}/order/confirmation   | 購入完了     |
 
 ## テーブル
