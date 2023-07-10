@@ -100,7 +100,8 @@ class Database {
      * @return array 商品の連想配列
      */
     public function fetchAllProducts() {
-        $sql = "SELECT * FROM Products";
+        $sql = "SELECT *
+                FROM Products";
         $stmt = $this->conn->query($sql);
         $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
         return $products;
@@ -137,7 +138,11 @@ class Database {
      */
     private function fetchCartByUserAndProduct(int $userId, int $productId)
     {
-        $sql = "SELECT * FROM Cart WHERE user_id = ? AND product_id = ?";
+        $sql = "SELECT *
+                FROM Cart
+                WHERE user_id = ?
+                AND product_id = ?
+                AND status = 0";
         $stmt = $this->conn->prepare($sql);
         $stmt->bindParam(1, $userId, PDO::PARAM_INT);
         $stmt->bindParam(2, $productId, PDO::PARAM_INT);
@@ -153,7 +158,9 @@ class Database {
      */
     private function updateCartQuantity(int $cartId, int $newQuantity)
     {
-        $sql = "UPDATE Cart SET quantity = ? WHERE id = ?";
+        $sql = "UPDATE Cart
+                SET quantity = ?
+                WHERE id = ?";
         $stmt = $this->conn->prepare($sql);
         $stmt->bindParam(1, $newQuantity, PDO::PARAM_INT);
         $stmt->bindParam(2, $cartId, PDO::PARAM_INT);
@@ -188,7 +195,8 @@ class Database {
         $sql = "SELECT p.name, p.price, c.quantity
                 FROM Cart c
                 INNER JOIN Products p ON c.product_id = p.id
-                WHERE c.user_id = ?";
+                WHERE c.user_id = ?
+                AND c.status = 0";
         $stmt = $this->conn->prepare($sql);
         $stmt->bindParam(1, $userId, PDO::PARAM_INT);
         $stmt->execute();
