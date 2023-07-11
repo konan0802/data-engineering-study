@@ -1,6 +1,6 @@
 # GCPデータ分析基盤
 
-<img src="../Img/beer-and-bread.drawio.png" width="600">
+<img src="../Img/beer-and-bread.drawio.png" width="700">
 
 ## 参考記事
 * [GCPのデータ処理・ETL系サービスの使い分け](https://qiita.com/tomoyanamekawa/items/e45317bada702159add0)
