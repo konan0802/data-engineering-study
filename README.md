@@ -78,6 +78,7 @@
 * イベント
     * [キーエンスの歴史から学ぶ！小さくはじめて最速で成果をだすデータ活用の方法](https://blog.trocco.io/seminar/keyence_quick-win_20230613)
         * [メモ](./Event/%E3%80%8E%E3%82%AD%E3%83%BC%E3%82%A8%E3%83%B3%E3%82%B9%E3%81%AE%E6%AD%B4%E5%8F%B2%E3%81%8B%E3%82%89%E5%AD%A6%E3%81%B6%EF%BC%81%E5%B0%8F%E3%81%95%E3%81%8F%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6.md)
+    * [第18回 Customer系エンジニア座談会](https://customer-x-engineer.connpass.com/event/285778/)
 
 ### 7月
 * 実践
