@@ -1,25 +1,7 @@
 # LayerX関連の資料
-企業文化や取り組みにおいて参考になる部分が多いため別途まとめる
+LayerX社は企業文化や取り組みにおいて参考になる部分が多いため参考資料をまとめる
 
-* [LayerX羅針盤_ver 1.1](https://speakerdeck.com/layerx/compass_202209)
-    * 
-
-* [事業拡大とデータドリブン組織を支えるBizOpsチームの立ち上げとその後](https://speakerdeck.com/suuu/shi-ye-kuo-da-todetadoribunzu-zhi-wozhi-erubizopstimunoli-tishang-getosonohou)
-    * 
-
-* [LayerXのBizOpsの変遷と将来ビジョン](https://speakerdeck.com/suuu/layerxnobizopsnobian-qian-tojiang-lai-biziyon)
-
-* [バクラクにはアナリストが不在？いいえ全員アナリストです！そんな理想を実現するData Enabling teamをつくります](https://note.com/shuntak/n/na78d757de509)
-    * 現状と課題
-        * 自らデータの意味を調べて理解し、SQLを書き、ダッシュボードに可視化できる人が各部署に存在する
-        * しかし属人化によりデータ分析がスケールしない・データ爆発により認知負荷が増大するといった課題もある
-        * データ分析チームを作ったとしてもビジネスドメインに対する理解が現場担当者に比べると深めづらい
-        * 理想は全員アナリスト
-    * 全員アナリストを支えるData Enabling team
-        * データ分析で使うには必ずしも最適でない形になっていない
-        * データ分析に最適化した構造に変換し、認知不可を下げる活動
-        * これから行っていくらしい
-
+## 2022年7月
 * [ファネルを科学する。コホートを駆使して事業解像度を高める「シン・ザ・モデル」](https://note.com/35_mki/n/n0c4a619f5803)
     * 事業解像度が高い状態とは
         * 最終成果指標であるKGIに対し、KPIが的確に分解・設定され、KGIの達成・未達成がKPIをベースに説明可能になっている状態
@@ -39,4 +21,31 @@
     * 「バクラク流」事業計画
         * 
 
+* [バクラクのお客様状況把握への取り組み - LayerX カスタマーサクセスチーム](https://note.com/suuyan73/n/ne962f66df992)
+    * Redashによる個別ダッシュボード作成
+        * 
+
+## 2022年10月
+* [企業文化に投資する](https://comemo.nikkei.com/n/n97cb404f4013)
+    * 
+
+* [LayerXのBizOpsの変遷と将来ビジョン](https://speakerdeck.com/suuu/layerxnobizopsnobian-qian-tojiang-lai-biziyon)
+
+## 2023年2月
+* [バクラクにはアナリストが不在？いいえ全員アナリストです！そんな理想を実現するData Enabling teamをつくります](https://note.com/shuntak/n/na78d757de509)
+    * 現状と課題
+        * 自らデータの意味を調べて理解し、SQLを書き、ダッシュボードに可視化できる人が各部署に存在する
+        * しかし属人化によりデータ分析がスケールしない・データ爆発により認知負荷が増大するといった課題もある
+        * データ分析チームを作ったとしてもビジネスドメインに対する理解が現場担当者に比べると深めづらい
+        * 理想は全員アナリスト
+    * 全員アナリストを支えるData Enabling team
+        * データ分析で使うには必ずしも最適でない形になっていない
+        * データ分析に最適化した構造に変換し、認知不可を下げる活動
+        * これから行っていくらしい
+
+## 2023年6月
+* [事業拡大とデータドリブン組織を支えるBizOpsチームの立ち上げとその後](https://speakerdeck.com/suuu/shi-ye-kuo-da-todetadoribunzu-zhi-wozhi-erubizopstimunoli-tishang-getosonohou)
+    * 
+
+## 2023年7月
 * [バクラク事業におけるデータ組織とデータ基盤 2023](https://tech.layerx.co.jp/entry/bakuraku-data-management-2023)
